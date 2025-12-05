@@ -214,6 +214,7 @@
 
 <body>
   <div class="wrap">
+    
     <div class="hero">
       <h1>Market Served</h1>
       <p>Explore our service areas across New Mexico</p>
@@ -233,7 +234,7 @@
     <div class="tabs">
       <button class="tab active" data-filter="all">All</button>
       <button class="tab" data-filter="region">Region</button>
-      <button class="tab" data-filter="city">City</button>
+      <!-- <button class="tab" data-filter="city">City</button> -->
       <button class="tab" data-filter="zip code">Zip Code</button>
     </div>
 
@@ -246,15 +247,15 @@
         type: 'region',
         title: 'NORTH',
         location: 'NEWMEXICO',
-        image: 'https://i.imgur.com/L7H22gh.jpeg',
-        url: 'https://newmexicorealestatelistings.com/pages/north-west-region/'
+        image: 'https://i.imgur.com/x26r7pf.jpeg',
+        url: 'https://newmexicorealestatelistings.com/pages/north-region-page/'
       },
       {
         type: 'region',
         title: 'NORTH WEST',
         location: 'NEWMEXICO',
-        image: 'https://i.imgur.com/x26r7pf.jpeg',
-        url: 'https://newmexicorealestatelistings.com/pages/north-region-page/'
+        image: 'https://i.imgur.com/L7H22gh.jpeg',
+        url: 'https://newmexicorealestatelistings.com/pages/north-west-region/'
       },
       {
         type: 'region',
@@ -275,441 +276,243 @@
         title: 'SOUTHEAST',
         location: 'NEWMEXICO',
         image: 'https://i.imgur.com/HBWQ5d2.jpeg',
-        url: 'https://www.newmexicorealestatelistings.com/index.php?advanced=1&areas%5B%5D=zip%3A87001&types%5B%5D=1&types%5B%5D=2&beds=0&baths=0&min=0&max=100000000&rtype=map#rslt'
+        url: 'https://newmexicorealestatelistings.com/pages/south-east-region/'
       },
       {
         type: 'region',
         title: 'SOUTHWEST',
         location: 'NEWMEXICO',
-        image: 'https://i.imgur.com/ywF3GiB.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php?advanced=1&areas%5B%5D=zip%3A87001&types%5B%5D=1&types%5B%5D=2&beds=0&baths=0&min=0&max=100000000&rtype=map#rslt'
+        image: 'https://i.imgur.com/HM9ug92.jpeg',
+        url: 'https://newmexicorealestatelistings.com/pages/south-west-region/'
       },
       {
         type: 'region',
         title: 'EAST',
         location: 'NEWMEXICO',
-        image: 'https://i.imgur.com/ywF3GiB.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php?advanced=1&areas%5B%5D=zip%3A87001&types%5B%5D=1&types%5B%5D=2&beds=0&baths=0&min=0&max=100000000&rtype=map#rslt'
-      },
-      {
-        type: 'city',
-        title: 'Algodones',
-        location: 'NORTH',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
-      }
-      , {
-        type: 'city',
-        title: 'Bernalillo',
-        location: 'NORTH',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
-      },
-      {// NorthWest
-        type: 'city',
-        title: 'Albuquerque(Old Town, Downtown Westside)',
-        location: 'NORTHWEST',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
-      },
-      {
-        type: 'city',
-        title: 'Albuquerque(North Valley, Los Ranchos de Albuquerque)',
-        location: 'NORTHWEST',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
-      },
-      {
-        type: 'city',
-        title: 'Albuquerque(Far Northwest, Paradise Hills, Ventana Ranch)',
-        location: 'NORTHWEST',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
-      },
-      {
-        type: 'city',
-        title: 'Albuquerque(Westside/Northwest) ',
-        location: 'NORTHWEST',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
-      },
-      {
-        type: 'city',
-        title: 'Rio Rancho',
-        location: 'NORTHWEST',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
-      },
-      {
-        type: 'city',
-        title: 'Rio Rancho (Northern Rio Rancho, Enchanted Hills)',
-        location: 'NORTHWEST',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
-      },
-      { // NorthEast
-        type: 'city',
-        title: 'Albuquerque(Far Northeast Heights, Sandia Foothills)',
-        location: 'NORTHEAST',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
-      },
-      {
-        type: 'city',
-        title: 'Albuquerque(North I-25 Corridor,Journal Center,Balloon Fiesta Park)',
-        location: 'NORTHEAST',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
-      },
-      {
-        type: 'city',
-        title: 'Albuquerque(Northeast Heights, Foothills, Four Hills)',
-        location: 'NORTHEAST',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
-      },
-      {
-        type: 'city',
-        title: 'Albuquerque (Northeast Heights, Eldorado, Bear Canyon)',
-        location: 'NORTHEAST',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
-      },
-      {
-        type: 'city',
-        title: 'Albuquerque (Mid‑Northeast Heights, Uptown area)',
-        location: 'NORTHEAST',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
-      },
-      {
-        type: 'city',
-        title: 'Albuquerque (North Academy, Del Norte, Far NE Heights)',
-        location: 'NORTHEAST',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
-      },
-      { //South
-        type: 'city',
-        title: 'Belen',
-        location: 'SOUTH',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
-      },
-      {
-        type: 'city',
-        title: 'Peralta',
-        location: 'SOUTH',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
-      },
-      {
-        type: 'city',
-        title: 'Albuquerque(South Valley, Atrisco, West Mesa)',
-        location: 'SOUTH',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
-      },
-      {
-        type: 'city',
-        title: 'Albuquerque (Southwest Mesa, Westgate, Desert Springs)',
-        location: 'SOUTH',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
-      },
-      { //South East
-        type: 'city',
-        title: 'Tijeras',
-        location: 'SOUTH EAST',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
-      },
-      {
-        type: 'city',
-        title: 'Albuquerque (Southeast Heights, UNM area, Nob Hill, Airport)',
-        location: 'SOUTH EAST',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
-      },
-      {
-        type: 'city',
-        title: 'Albuquerque (Four Hills, East Central, Foothills)',
-        location: 'SOUTH EAST',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
-      },
-      {
-        type: 'city',
-        title: 'Albuquerque (Four Hills, East Central, Foothills)',
-        location: 'SOUTH EAST',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
-      },
-      { //SouthWest
-        type: 'city',
-        title: 'Albuquerque (Four Hills, East Central, Foothills)',
-        location: 'SOUTH WEST',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
-      },
-      { //East Mountains
-        type: 'city',
-        title: 'Sandia Park',
-        location: 'EAST MOUNTAINS',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
-      },
-      {
-        type: 'city',
-        title: 'Corales',
-        location: 'EAST MOUNTAINS',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
-      },
-      {
-        type: 'city',
-        title: 'Cedar Crest',
-        location: 'EAST MOUNTAINS',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
-      },
-      {
-        type: 'city',
-        title: 'Moriarty',
-        location: 'EAST MOUNTAINS',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
-      },
-      {
-        type: 'city',
-        title: 'Edgewood',
-        location: 'EAST MOUNTAINS',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
+        image: 'https://i.imgur.com/Hf4oI4W.jpeg',
+        url: 'https://newmexicorealestatelistings.com/pages/east-mountains-region/'
       },
       { // Zip Code North
         type: 'zip code',
         title: '87001',
-        location: 'Algodones,NM',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
+        location: 'Algodones, NM',
+        image: 'https://i.imgur.com/pS3GfQ4.png',
+        url: 'https://surl.li/uvdwxs'
       },
       { // Zip Code North
         type: 'zip code',
         title: '87004',
-        location: 'Bernalillo,NM',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
+        location: 'Bernalillo, NM',
+        image: 'https://i.imgur.com/BVVPt0C.jpeg',
+        url: 'https://surl.li/lfyjwb'
       }
-
       ,
       { // Zip Code North West
         type: 'zip code',
         title: '87104',
-        location: 'Algodones,NM',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
+        location: 'Albuquerque(Old Town, DowntownWestside), NM',
+        image: 'https://i.imgur.com/zdyKFqD.jpeg',
+        url: 'https://surl.li/rlparp'
       },
       { // Zip Code North West
         type: 'zip code',
         title: '87107',
-        location: 'Bernalillo,NM',
-        image: 'https://i.imgur.com/uswaacW.png',
+        location: 'Albuquerque(North Valley, Los Ranchos de Albuquerque), NM',
+        image: 'https://i.imgur.com/DYfRXl6.jpeg',
         url: 'https://www.newmexicorealestatelistings.com/index.php'
       }
       ,
       { // Zip Code North West
         type: 'zip code',
         title: '87114',
-        location: 'Bernalillo,NM',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
+        location: 'Albuquerque(Far Northwest, Paradise Hills, Ventana Ranch), NM',
+        image: 'https://i.imgur.com/yplRm24.jpeg',
+        url: 'https://surl.li/toeklo'
       }
       ,
       { // Zip Code North West
         type: 'zip code',
         title: '87120',
-        location: 'Bernalillo,NM',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
+        location: 'Albuquerque(Westside/Northwest), NM',
+        image: 'https://i.imgur.com/Vum64Di.jpeg',
+        url: 'https://surl.lt/jixoul'
       }
       ,
       { // Zip Code North West
         type: 'zip code',
         title: '87124',
-        location: 'Bernalillo,NM',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
+        location: 'Rio Rancho, NM',
+        image: 'https://i.imgur.com/f4M6Wre.jpeg',
+        url: 'https://surl.li/xypjpb'
       }
       ,
       { // Zip Code North West
         type: 'zip code',
         title: '87144',
-        location: 'Bernalillo,NM',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
+        location: 'Rio Rancho (Northern Rio Rancho, Enchanted Hills), NM',
+        image: 'https://i.imgur.com/oideqHh.jpeg',
+        url: 'https://surl.lt/zkdrwy'
       }
       ,
       { // Zip Code North East
         type: 'zip code',
         title: '87122',
-        location: 'Bernalillo,NM',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
+        location: 'Albuquerque(Far Northeast Heights, Sandia Foothills), NM',
+        image: 'https://i.imgur.com/T3kwHdq.png',
+        url: 'https://surl.li/lyboju'
       }
       ,
       { // Zip Code North East
         type: 'zip code',
         title: '87113',
-        location: 'Bernalillo,NM',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
+        location: 'Albuquerque(North I-25 Corridor,Journal Center,Balloon Fiesta Park)',
+        image: 'https://i.imgur.com/mkypQ9i.jpeg',
+        url: 'https://surl.li/ejhqvj'
       }
       ,
       { // Zip Code North East
         type: 'zip code',
         title: '87112',
-        location: 'Bernalillo,NM',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
+        location: 'Albuquerque(Northeast Heights, Foothills, Four Hills)',
+        image: 'https://i.imgur.com/5a4E90d.jpeg',
+        url: 'https://surl.li/wkulkl'
       }
       ,
       { // Zip Code North East
         type: 'zip code',
         title: '8711',
-        location: 'Bernalillo,NM',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
+        location: 'Albuquerque (Northeast Heights, Eldorado, Bear Canyon)',
+        image: 'https://i.imgur.com/1P9uNLK.jpeg',
+        url: 'https://surl.li/wedjze'
       }
       ,
       { // Zip Code North East
         type: 'zip code',
         title: '87110',
-        location: 'Bernalillo,NM',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
+        location: 'Albuquerque (Mid‑Northeast Heights, Uptown area)',
+        image: 'https://i.imgur.com/cus8jmr.png',
+        url: 'https://surl.li/eztdcr'
       }
       ,
       { // Zip Code North East
         type: 'zip code',
         title: '87109',
-        location: 'Bernalillo,NM',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
+        location: 'Albuquerque (North Academy, Del Norte, Far NE Heights)',
+        image: 'https://i.imgur.com/92dkqzy.jpeg',
+        url: 'https://surli.cc/swxsim'
       }
-
       ,
       { // Zip Code South
         type: 'zip code',
         title: '87002',
-        location: 'Belen,NM',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
+        location: 'Belen',
+        image: 'https://i.imgur.com/MuYM1vO.jpeg',
+        url: 'https://surl.li/lbjjqy'
       }
       ,
       { // Zip Code South
         type: 'zip code',
         title: '87068',
-        location: 'Peralta,NM',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
+        location: 'Peralta',
+        image: 'https://i.imgur.com/RIxVzHT.jpeg',
+        url: 'https://surl.lt/pjqynh'
       }
       ,
       { // Zip Code South
         type: 'zip code',
         title: '87105',
-        location: 'Albuquerque,NM',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
+        location: 'Albuquerque(South Valley, Atrisco, West Mesa)',
+        image: 'https://i.imgur.com/4kTOljq.png',
+        url: 'https://surl.li/xlitcd'
       }
       ,
       { // Zip Code South
         type: 'zip code',
         title: '87121',
-        location: 'Albuquerque,NM',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
+        location: 'Albuquerque (Southwest Mesa, Westgate, Desert Springs)',
+        image: 'https://i.imgur.com/5PFDY6X.jpeg',
+        url: 'https://surl.lt/qlulgc'
       }
        ,
       { // Zip Code SouthEast
         type: 'zip code',
         title: '87035',
-        location: 'Tijeras ,NM',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
+        location: 'Tijeras',
+        image: 'https://i.imgur.com/y466efW.png',
+        url: 'https://surl.li/douqcf'
       }
        ,
       { // Zip Code SouthEast
         type: 'zip code',
         title: '87106',
-        location: 'Albuquerque ,NM',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
+        location: 'Albuquerque (Southeast Heights, UNM area, Nob Hill, Airport)',
+        image: 'https://i.imgur.com/bSaqFDH.jpeg',
+        url: 'https://surl.li/uolyck'
       }
       ,
       { // Zip Code SouthEast
         type: 'zip code',
         title: '87108',
-        location: 'Albuquerque ,NM',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
+        location: 'Albuquerque (International District, Southeast Heights)',
+        image: 'https://i.imgur.com/8OeC33a.png',
+        url: 'https://surl.li/rbjdia'
       }
       ,
       { // Zip Code SouthEast
         type: 'zip code',
         title: '87123',
-        location: 'Albuquerque ,NM',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
+        location: 'Albuquerque (Four Hills, East Central, Foothills)',
+        image: 'https://i.imgur.com/0aDNVN9.jpeg',
+        url: 'https://surl.li/mcslkm'
       }
 
       ,
       { // Zip Code SouthWest
         type: 'zip code',
         title: '87102',
-        location: 'Albuquerque ,NM',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
+        location: 'Albuquerque (Downtown Albuquerque, Barelas, South Broadway, and parts of the South Valley)',
+        image: 'https://i.imgur.com/U6Qcko0.png',
+        url: 'https://surl.li/xclony'
       }
        ,
       { // Zip Code EastMountains
         type: 'zip code',
         title: '87059',
-        location: 'Sandia Park ,NM',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
+        location: 'Sandia Park',
+        image: 'https://i.imgur.com/8b9JHF5.jpeg',
+        url: 'https://surl.li/lyvonp'
       }
       ,
       { // Zip Code EastMountains
         type: 'zip code',
         title: '87048',
-        location: 'Corales,NM',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
+        location: 'Corales',
+        image: 'https://i.imgur.com/cCzyWtm.jpeg',
+        url: 'https://surl.li/oxzudn'
       }
       ,
       { // Zip Code EastMountains
         type: 'zip code',
         title: '87047',
-        location: 'Cedar Crest,NM',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
+        location: 'Cedar Crest',
+        image: 'https://i.imgur.com/49S6QAp.jpeg',
+        url: 'https://surl.lt/rztgfn'
       }
       ,
       { // Zip Code EastMountains
         type: 'zip code',
         title: '87015',
-        location: 'Moriarty,NM',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
+        location: 'Moriarty',
+        image: 'https://i.imgur.com/GFzHMrO.jpeg',
+        url: 'https://surl.li/fgapyq'
       }
       ,
       { // Zip Code EastMountains
         type: 'zip code',
         title: '87008',
-        location: 'Edgewood,NM',
-        image: 'https://i.imgur.com/uswaacW.png',
-        url: 'https://www.newmexicorealestatelistings.com/index.php'
+        location: 'Edgewood',
+        image: 'https://i.imgur.com/WkMtiyM.jpeg',
+        url: 'https://surl.li/ziazwx'
       }
     ];
 
